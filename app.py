@@ -202,7 +202,7 @@ def main():
     question = st.text_input(
         "### Insira aqui sua pergunta:", placeholder="Digite sua pergunta aqui..."
     )
-
+    
     if st.button("Enviar"):
         if question.strip():
             response = process_query(collection, question, model_gen)
@@ -214,7 +214,7 @@ def main():
     else:
         st.markdown("### Resposta:")
         st.write("Sua resposta aparecerá aqui....")
-        
+    
     if st.button("Processar PDFs"):
         with st.spinner("Processando PDFs. Por favor, aguarde..."):
             folder_path = "data" 

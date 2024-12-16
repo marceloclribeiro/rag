@@ -1,6 +1,6 @@
 streamlit
 pypdf
 chromadb
-PyYAML
+pyyaml
 google-generativeai
 python-dotenv
