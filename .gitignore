@@ -1,0 +1,10 @@
+# Ignorar a pasta chroma
+chroma/
+
+# Ignorar o ambiente virtual
+venv/
+env/
+*.env/
+
+# Ignorar o arquivo .env
+.env
